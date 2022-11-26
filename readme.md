@@ -9,3 +9,6 @@ create db -> CREATE DATABASE portfoliodb;
 for .env:
 pip install django-environ
 in settings import environ
+
+searches django project searching for static dirs and adds to collective static dir:
+python manage.py collectstatic
